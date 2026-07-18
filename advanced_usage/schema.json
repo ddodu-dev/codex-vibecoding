@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/travel-plan.schema.json",
+  "title": "여행 계획표",
+  "description": "여행지, 날짜별 일정, 추천 숙소, 예상 총경비, 준비물을 기록하는 여행 계획표입니다.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "destinationName": {
+      "title": "여행지 이름",
+      "type": "string",
+      "minLength": 1
+    },
+    "dailyItinerary": {
+      "title": "날짜별 일정",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "date": {
+            "title": "날짜",
+            "type": "string",
+            "format": "date"
+          },
+          "place": {
+            "title": "장소",
+            "type": "string",
+            "minLength": 1
+          },
+          "activity": {
+            "title": "활동 내용",
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "date",
+          "place",
+          "activity"
+        ]
+      }
+    },
+    "recommendedAccommodation": {
+      "title": "추천 숙소",
+      "type": "string",
+      "minLength": 1
+    },
+    "estimatedTotalCost": {
+      "title": "예상 총경비",
+      "description": "여행에 필요할 것으로 예상되는 총경비입니다.",
+      "type": "number",
+      "minimum": 0
+    },
+    "packingList": {
+      "title": "준비물 목록",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "destinationName",
+    "dailyItinerary",
+    "recommendedAccommodation",
+    "estimatedTotalCost",
+    "packingList"
+  ]
+}
