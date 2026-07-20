@@ -1,0 +1,321 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - link "ChatGPT" [ref=f3e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f3e9]:
+        - link "Home" [ref=f3e11] [cursor=pointer]:
+          - /url: /
+        - link "Docs" [ref=f3e13] [cursor=pointer]:
+          - /url: /docs
+        - link "Use cases" [ref=f3e15] [cursor=pointer]:
+          - /url: /use-cases
+        - link "Resources" [ref=f3e17] [cursor=pointer]:
+          - /url: /resources
+      - generic [ref=f3e18]:
+        - button "Start searching" [ref=f3e19] [cursor=pointer]
+        - link "Try ChatGPT" [ref=f3e27] [cursor=pointer]:
+          - /url: https://chatgpt.com/
+        - button "Toggle light and dark theme" [ref=f3e32] [cursor=pointer]
+  - navigation "Docs sections" [ref=f3e36]:
+    - link "Overview" [ref=f3e37] [cursor=pointer]:
+      - /url: /docs
+    - link "Features" [ref=f3e40] [cursor=pointer]:
+      - /url: /docs/features
+    - link "Configuration" [ref=f3e42] [cursor=pointer]:
+      - /url: /docs/configuration
+    - link "Developers" [ref=f3e44] [cursor=pointer]:
+      - /url: /docs/developers
+    - link "Security" [ref=f3e46] [cursor=pointer]:
+      - /url: /docs/security-administration
+    - link "Administration" [ref=f3e48] [cursor=pointer]:
+      - /url: /docs/administration
+  - generic [ref=f3e51]:
+    - navigation [ref=f3e53]:
+      - list [ref=f3e55]:
+        - listitem [ref=f3e56]:
+          - link "Home" [ref=f3e57] [cursor=pointer]:
+            - /url: /docs
+      - generic [ref=f3e59]:
+        - heading "Get started" [level=3] [ref=f3e60]
+        - list [ref=f3e61]:
+          - listitem [ref=f3e62]:
+            - link "Quickstart" [ref=f3e63] [cursor=pointer]:
+              - /url: /docs/quickstart
+          - listitem [ref=f3e65]:
+            - link "Use ChatGPT" [ref=f3e66] [cursor=pointer]:
+              - /url: /docs/use-chatgpt
+          - listitem [ref=f3e68]:
+            - link "Get started with Work" [ref=f3e69] [cursor=pointer]:
+              - /url: /docs/get-started-with-work
+          - listitem [ref=f3e71]:
+            - link "Import from another agent" [ref=f3e72] [cursor=pointer]:
+              - /url: /docs/import
+      - generic [ref=f3e74]:
+        - heading "Foundations" [level=3] [ref=f3e75]
+        - list [ref=f3e76]:
+          - listitem [ref=f3e77]:
+            - link "Prompting" [ref=f3e78] [cursor=pointer]:
+              - /url: /docs/prompting
+          - listitem [ref=f3e80]:
+            - link "Personalize ChatGPT" [ref=f3e81] [cursor=pointer]:
+              - /url: /docs/personalize
+          - listitem [ref=f3e83]:
+            - link "Skills & Plugins" [ref=f3e84] [cursor=pointer]:
+              - /url: /docs/skills-and-plugins
+          - listitem [ref=f3e86]:
+            - link "Permissions" [ref=f3e87] [cursor=pointer]:
+              - /url: /docs/permission-modes
+      - generic [ref=f3e89]:
+        - heading "Explore" [level=3] [ref=f3e90]
+        - list [ref=f3e91]:
+          - listitem [ref=f3e92]:
+            - link "What's new" [ref=f3e93] [cursor=pointer]:
+              - /url: /docs/whats-new
+          - listitem [ref=f3e95]:
+            - link "Models" [ref=f3e96] [cursor=pointer]:
+              - /url: /docs/models
+          - listitem [ref=f3e98]:
+            - link "Pricing" [ref=f3e99] [cursor=pointer]:
+              - /url: /docs/pricing
+          - listitem [ref=f3e101]:
+            - link "Glossary" [ref=f3e102] [cursor=pointer]:
+              - /url: /docs/glossary
+      - generic [ref=f3e104]:
+        - heading "Available on" [level=3] [ref=f3e105]
+        - list [ref=f3e106]:
+          - listitem [ref=f3e107]:
+            - link "ChatGPT desktop app" [ref=f3e108] [cursor=pointer]:
+              - /url: /docs/app
+          - listitem [ref=f3e110]:
+            - link "ChatGPT on the web" [ref=f3e111] [cursor=pointer]:
+              - /url: /docs/web
+          - listitem [ref=f3e113]:
+            - link "Codex CLI" [ref=f3e114] [cursor=pointer]:
+              - /url: /docs/codex/cli
+          - listitem [ref=f3e116]:
+            - link "Codex IDE extension" [ref=f3e117] [cursor=pointer]:
+              - /url: /docs/codex/ide
+          - listitem [ref=f3e119]:
+            - link "Codex cloud" [ref=f3e120] [cursor=pointer]:
+              - /url: /docs/cloud
+      - generic [ref=f3e122]:
+        - heading "Releases" [level=3] [ref=f3e123]
+        - list [ref=f3e124]:
+          - listitem [ref=f3e125]:
+            - link "Changelog" [ref=f3e126] [cursor=pointer]:
+              - /url: /docs/changelog
+          - listitem [ref=f3e128]:
+            - link "Feature Maturity" [ref=f3e129] [cursor=pointer]:
+              - /url: /docs/feature-maturity
+          - listitem [ref=f3e131]:
+            - link "Open Source" [ref=f3e132] [cursor=pointer]:
+              - /url: /docs/open-source
+    - main [ref=f3e134]:
+      - generic [ref=f3e136]:
+        - generic [ref=f3e137]:
+          - navigation [ref=f3e139]:
+            - list [ref=f3e143]:
+              - listitem [ref=f3e406]:
+                - link "Where to use ChatGPT" [ref=f3e407] [cursor=pointer]:
+                  - /url: "#where-to-use-chatgpt"
+              - listitem [ref=f3e408]:
+                - link "Setup" [ref=f3e409] [cursor=pointer]:
+                  - /url: "#setup"
+              - listitem [ref=f3e410]:
+                - link "Open ChatGPT and sign in" [ref=f3e411] [cursor=pointer]:
+                  - /url: "#setup-web-sign-in"
+              - listitem [ref=f3e412]:
+                - link "Start a chat" [ref=f3e413] [cursor=pointer]:
+                  - /url: "#setup-web-start-task"
+              - listitem [ref=f3e414]:
+                - link "Select where ChatGPT should work" [ref=f3e415] [cursor=pointer]:
+                  - /url: "#setup-web-select-workspace"
+              - listitem [ref=f3e416]:
+                - link "Send your first message" [ref=f3e417] [cursor=pointer]:
+                  - /url: "#setup-web-send-message"
+              - listitem [ref=f3e418]:
+                - link "Next steps" [ref=f3e419] [cursor=pointer]:
+                  - /url: "#next-steps"
+          - button "Copy Page" [ref=f3e159] [cursor=pointer]
+        - generic [ref=f3e164]:
+          - generic [ref=f3e166]:
+            - heading "Quickstart" [level=1] [ref=f3e168]
+            - paragraph [ref=f3e169]: Start using ChatGPT on the web or in the desktop app.
+          - article [ref=f3e170]:
+            - heading "Where to use ChatGPT Copy link to where to use chatgpt" [level=2] [ref=f3e171]:
+              - generic [ref=f3e172]: Where to use ChatGPT
+              - button "Copy link to where to use chatgpt" [ref=f3e173] [cursor=pointer]
+            - paragraph [ref=f3e176]:
+              - text: Use ChatGPT across different surfaces, including the
+              - link "ChatGPT desktop app" [ref=f3e177] [cursor=pointer]:
+                - /url: /docs/app
+              - text: and
+              - link "ChatGPT on the web" [ref=f3e178] [cursor=pointer]:
+                - /url: /docs/web
+              - text: . Choose the option that fits your work.
+            - img "Cards compare the ChatGPT desktop app and ChatGPT on the web" [ref=f3e181]:
+              - generic [ref=f3e182]:
+                - generic [ref=f3e216]:
+                  - generic [ref=f3e217]: Desktop app
+                  - generic [ref=f3e218]: Work across projects, local files, and long-running tasks.
+                  - generic [ref=f3e219]: Recommended
+                - generic [ref=f3e221]:
+                  - img [ref=f3e223]:
+                    - generic [ref=f3e227]:
+                      - generic [ref=f3e252]: ChatGPT
+                      - generic [ref=f3e260]: chatgpt.com
+                  - generic [ref=f3e261]:
+                    - generic [ref=f3e262]: Web
+                    - generic [ref=f3e263]: Work on complex tasks uninterrupted in the cloud.
+                    - generic [ref=f3e264]: No installation required
+            - paragraph [ref=f3e274]:
+              - text: If you’re a developer and want to use Codex in your terminal or code editor, try
+              - link "Codex CLI" [ref=f3e275] [cursor=pointer]:
+                - /url: /docs/codex/cli
+              - text: or the
+              - link "Codex IDE extension" [ref=f3e276] [cursor=pointer]:
+                - /url: /docs/codex/ide
+              - text: .
+            - heading "Setup Copy link to setup" [level=2] [ref=f3e277]:
+              - generic [ref=f3e278]: Setup
+              - button "Copy link to setup" [ref=f3e279] [cursor=pointer]
+            - generic [ref=f3e282]:
+              - generic [ref=f3e283]:
+                - generic [ref=f3e284]: Choose an option
+                - group "Choose an option" [ref=f3e287]:
+                  - radio "Desktop" [ref=f3e288] [cursor=pointer]
+                  - radio "Web" [checked] [ref=f3e291] [cursor=pointer]
+              - region "Web" [ref=f3e295]:
+                - generic [ref=f3e297]:
+                  - paragraph [ref=f3e298]: ChatGPT is available on the web and includes Chat mode and Work mode.
+                  - generic [ref=f3e299]:
+                    - list [ref=f3e300]:
+                      - listitem [ref=f3e301]:
+                        - heading "Open ChatGPT and sign in" [level=3] [ref=f3e302]
+                    - paragraph [ref=f3e303]:
+                      - text: Go to
+                      - link "chatgpt.com" [ref=f3e304] [cursor=pointer]:
+                        - /url: https://chatgpt.com
+                      - text: and sign in with your ChatGPT account.
+                    - list [ref=f3e305]:
+                      - listitem [ref=f3e306]:
+                        - heading "Start a chat" [level=3] [ref=f3e307]
+                        - generic [ref=f3e308]:
+                          - generic [ref=f3e309]:
+                            - list [ref=f3e310]:
+                              - listitem [ref=f3e311]:
+                                - text: Select
+                                - strong [ref=f3e312]: Chat
+                                - text: to ask questions, explore ideas, and work through a topic conversationally.
+                              - listitem [ref=f3e313]:
+                                - text: Select
+                                - strong [ref=f3e314]: Work
+                                - text: to research, analyze information, and create documents, presentations, spreadsheets, Sites, or other finished work.
+                            - paragraph [ref=f3e315]:
+                              - text: Learn more about
+                              - link "using ChatGPT" [ref=f3e316] [cursor=pointer]:
+                                - /url: /docs/use-chatgpt
+                              - text: .
+                          - generic [ref=f3e318]:
+                            - paragraph [ref=f3e319]: Interactive illustration of the ChatGPT Chat and Work picker. Choose a selection to update this demo. When motion is enabled, the animated cursor restores the previous selection after a short pause. This does not change your ChatGPT settings.
+                            - status [ref=f3e320]
+                            - group "ChatGPT Chat and Work demo" [ref=f3e325]:
+                              - radio "Select Chat in this illustration" [checked] [ref=f3e326] [cursor=pointer]: Chat
+                              - radio "Select Work in this illustration" [ref=f3e327] [cursor=pointer]: Work
+                      - listitem [ref=f3e328]:
+                        - heading "Select where ChatGPT should work" [level=3] [ref=f3e329]
+                        - paragraph [ref=f3e330]: Start a chat or select a project. Projects can include chats, files, and instructions.
+                      - listitem [ref=f3e331]:
+                        - heading "Send your first message" [level=3] [ref=f3e332]
+                        - paragraph [ref=f3e333]: "Describe your goal and add any files or context ChatGPT needs. Try an example:"
+                        - generic [ref=f3e336]:
+                          - group "Choose an example prompt" [ref=f3e339]:
+                            - radio "Make a decision" [checked] [ref=f3e340] [cursor=pointer]
+                            - radio "Daily briefing" [ref=f3e341] [cursor=pointer]
+                            - radio "Plan an event" [ref=f3e342] [cursor=pointer]
+                          - generic [ref=f3e420]:
+                            - region "Make a decision example" [ref=f3e421]:
+                              - generic [ref=f3e429]:
+                                - textbox "Message ChatGPT" [ref=f3e431]: Research whether I should [decision], compare the best options, explain the tradeoffs for my situation, and recommend one with citations.
+                                - generic [ref=f3e432]:
+                                  - button "Add files in ChatGPT." [ref=f3e434] [cursor=pointer]
+                                  - 'button "Model: 5.6 Sol Extra High" [ref=f3e436] [cursor=pointer]':
+                                    - generic [ref=f3e439]:
+                                      - generic [ref=f3e440]: 5.6 Sol
+                                      - generic [ref=f3e441]: Extra High
+                                  - button "Open in ChatGPT" [ref=f3e443] [cursor=pointer]
+                            - region:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - textbox:
+                                                  - /placeholder: Message ChatGPT
+                                                  - text: Every weekday at 8:00 a.m., review my connected calendar and recent messages, then send me a briefing with today’s priorities, meeting prep, replies I owe, and blockers.
+                                              - generic:
+                                                - generic:
+                                                  - button
+                                                - generic:
+                                                  - button:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: 5.6 Sol
+                                                        - generic: Extra High
+                                                - button
+                            - region:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - generic:
+                                                - textbox:
+                                                  - /placeholder: Message ChatGPT
+                                                  - text: Help me plan my event. Ask me about the occasion, guests, date, location, budget, and anything else you need. Then create a timeline, budget, invitation copy, and checklist, and publish a Site I can use to invite guests and collect RSVPs.
+                                              - generic:
+                                                - generic:
+                                                  - button
+                                                - generic:
+                                                  - button:
+                                                    - generic:
+                                                      - generic:
+                                                        - generic: 5.6 Sol
+                                                        - generic: Extra High
+                                                - button
+            - heading "Next steps Copy link to next steps" [level=2] [ref=f3e345]:
+              - generic [ref=f3e346]: Next steps
+              - button "Copy link to next steps" [ref=f3e347] [cursor=pointer]
+            - link "Learn more about the ChatGPT desktop app Use the ChatGPT desktop app to work with your local projects." [ref=f3e350] [cursor=pointer]:
+              - /url: /docs/app
+              - generic [ref=f3e356]:
+                - generic [ref=f3e357]: Learn more about the ChatGPT desktop app
+                - paragraph [ref=f3e363]: Use the ChatGPT desktop app to work with your local projects.
+            - link "Import your setup Bring supported setup, projects, and recent work into ChatGPT." [ref=f3e364] [cursor=pointer]:
+              - /url: /docs/import
+              - generic [ref=f3e371]:
+                - generic [ref=f3e372]: Import your setup
+                - paragraph [ref=f3e378]: Bring supported setup, projects, and recent work into ChatGPT.
+      - navigation [ref=f3e381]:
+        - link "Next Use ChatGPT" [ref=f3e383] [cursor=pointer]:
+          - /url: /docs/use-chatgpt
+          - generic [ref=f3e384]:
+            - generic [ref=f3e385]: Next
+            - generic [ref=f3e386]: Use ChatGPT
+  - generic:
+    - button "Ask AI" [ref=f3e390] [cursor=pointer]
+    - dialog [ref=f3e392]:
+      - banner [ref=f3e393]:
+        - heading "Docs agent" [level=2] [ref=f3e394]
+        - generic [ref=f3e395]:
+          - button "Start a new docs agent chat" [ref=f3e396] [cursor=pointer]
+          - button "Close docs agent" [ref=f3e399] [cursor=pointer]
+      - paragraph [ref=f3e404]: Loading docs agent...

@@ -1,0 +1,327 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "ChatGPT" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f1e9]:
+        - link "Home" [ref=f1e11] [cursor=pointer]:
+          - /url: /
+        - link "Docs" [ref=f1e13] [cursor=pointer]:
+          - /url: /docs
+        - link "Use cases" [ref=f1e15] [cursor=pointer]:
+          - /url: /use-cases
+        - link "Resources" [ref=f1e17] [cursor=pointer]:
+          - /url: /resources
+      - generic [ref=f1e18]:
+        - button "Start searching" [ref=f1e19] [cursor=pointer]
+        - link "Try ChatGPT" [ref=f1e27] [cursor=pointer]:
+          - /url: https://chatgpt.com/
+        - button "Toggle light and dark theme" [ref=f1e32] [cursor=pointer]
+  - navigation "Docs sections" [ref=f1e36]:
+    - link "Overview" [ref=f1e37] [cursor=pointer]:
+      - /url: /docs
+    - link "Features" [ref=f1e40] [cursor=pointer]:
+      - /url: /docs/features
+    - link "Configuration" [ref=f1e42] [cursor=pointer]:
+      - /url: /docs/configuration
+    - link "Developers" [ref=f1e44] [cursor=pointer]:
+      - /url: /docs/developers
+    - link "Security" [ref=f1e46] [cursor=pointer]:
+      - /url: /docs/security-administration
+    - link "Administration" [ref=f1e48] [cursor=pointer]:
+      - /url: /docs/administration
+  - generic [ref=f1e51]:
+    - navigation [ref=f1e53]:
+      - list [ref=f1e55]:
+        - listitem [ref=f1e56]:
+          - link "Home" [ref=f1e57] [cursor=pointer]:
+            - /url: /docs
+      - generic [ref=f1e59]:
+        - heading "Get started" [level=3] [ref=f1e60]
+        - list [ref=f1e61]:
+          - listitem [ref=f1e62]:
+            - link "Quickstart" [ref=f1e63] [cursor=pointer]:
+              - /url: /docs/quickstart
+          - listitem [ref=f1e65]:
+            - link "Use ChatGPT" [ref=f1e66] [cursor=pointer]:
+              - /url: /docs/use-chatgpt
+          - listitem [ref=f1e68]:
+            - link "Get started with Work" [ref=f1e69] [cursor=pointer]:
+              - /url: /docs/get-started-with-work
+          - listitem [ref=f1e71]:
+            - link "Import from another agent" [ref=f1e72] [cursor=pointer]:
+              - /url: /docs/import
+      - generic [ref=f1e74]:
+        - heading "Foundations" [level=3] [ref=f1e75]
+        - list [ref=f1e76]:
+          - listitem [ref=f1e77]:
+            - link "Prompting" [ref=f1e78] [cursor=pointer]:
+              - /url: /docs/prompting
+          - listitem [ref=f1e80]:
+            - link "Personalize ChatGPT" [ref=f1e81] [cursor=pointer]:
+              - /url: /docs/personalize
+          - listitem [ref=f1e83]:
+            - link "Skills & Plugins" [ref=f1e84] [cursor=pointer]:
+              - /url: /docs/skills-and-plugins
+          - listitem [ref=f1e86]:
+            - link "Permissions" [ref=f1e87] [cursor=pointer]:
+              - /url: /docs/permission-modes
+      - generic [ref=f1e89]:
+        - heading "Explore" [level=3] [ref=f1e90]
+        - list [ref=f1e91]:
+          - listitem [ref=f1e92]:
+            - link "What's new" [ref=f1e93] [cursor=pointer]:
+              - /url: /docs/whats-new
+          - listitem [ref=f1e95]:
+            - link "Models" [ref=f1e96] [cursor=pointer]:
+              - /url: /docs/models
+          - listitem [ref=f1e98]:
+            - link "Pricing" [ref=f1e99] [cursor=pointer]:
+              - /url: /docs/pricing
+          - listitem [ref=f1e101]:
+            - link "Glossary" [ref=f1e102] [cursor=pointer]:
+              - /url: /docs/glossary
+      - generic [ref=f1e104]:
+        - heading "Available on" [level=3] [ref=f1e105]
+        - list [ref=f1e106]:
+          - listitem [ref=f1e107]:
+            - link "ChatGPT desktop app" [ref=f1e108] [cursor=pointer]:
+              - /url: /docs/app
+          - listitem [ref=f1e110]:
+            - link "ChatGPT on the web" [ref=f1e111] [cursor=pointer]:
+              - /url: /docs/web
+          - listitem [ref=f1e113]:
+            - link "Codex CLI" [ref=f1e114] [cursor=pointer]:
+              - /url: /docs/codex/cli
+          - listitem [ref=f1e116]:
+            - link "Codex IDE extension" [ref=f1e117] [cursor=pointer]:
+              - /url: /docs/codex/ide
+          - listitem [ref=f1e119]:
+            - link "Codex cloud" [ref=f1e120] [cursor=pointer]:
+              - /url: /docs/cloud
+      - generic [ref=f1e122]:
+        - heading "Releases" [level=3] [ref=f1e123]
+        - list [ref=f1e124]:
+          - listitem [ref=f1e125]:
+            - link "Changelog" [ref=f1e126] [cursor=pointer]:
+              - /url: /docs/changelog
+          - listitem [ref=f1e128]:
+            - link "Feature Maturity" [ref=f1e129] [cursor=pointer]:
+              - /url: /docs/feature-maturity
+          - listitem [ref=f1e131]:
+            - link "Open Source" [ref=f1e132] [cursor=pointer]:
+              - /url: /docs/open-source
+    - main [ref=f1e134]:
+      - generic [ref=f1e136]:
+        - generic [ref=f1e137]:
+          - navigation [ref=f1e139]:
+            - list [ref=f1e143]:
+              - listitem [ref=f1e429]:
+                - link "Introducing Work mode" [ref=f1e430] [cursor=pointer]:
+                  - /url: "#introducing-work-mode"
+              - listitem [ref=f1e431]:
+                - link "What to try first" [ref=f1e432] [cursor=pointer]:
+                  - /url: "#what-to-try-first"
+              - listitem [ref=f1e433]:
+                - link "Best practices for using Work mode" [ref=f1e434] [cursor=pointer]:
+                  - /url: "#best-practices-for-using-work-mode"
+              - listitem [ref=f1e435]:
+                - link "Add plugins for more context and better outputs" [ref=f1e436] [cursor=pointer]:
+                  - /url: "#add-plugins-for-more-context-and-better-outputs"
+              - listitem [ref=f1e437]:
+                - link "Use Work mode efficiently" [ref=f1e438] [cursor=pointer]:
+                  - /url: "#use-work-mode-efficiently"
+              - listitem [ref=f1e439]:
+                - link "More use cases" [ref=f1e440] [cursor=pointer]:
+                  - /url: "#more-use-cases"
+          - button "Copy Page" [ref=f1e157] [cursor=pointer]
+        - generic [ref=f1e162]:
+          - generic [ref=f1e164]:
+            - heading "Get started with Work mode" [level=1] [ref=f1e166]
+            - paragraph [ref=f1e167]: Delegate substantial tasks to ChatGPT in Work mode and get reviewable results.
+          - article [ref=f1e168]:
+            - generic [ref=f1e169]: Your browser does not support the video tag.
+            - heading "Introducing Work mode Copy link to introducing work mode" [level=2] [ref=f1e171]:
+              - generic [ref=f1e172]: Introducing Work mode
+              - button "Copy link to introducing work mode" [ref=f1e173] [cursor=pointer]
+            - paragraph [ref=f1e176]: Work mode is a way to delegate real work to ChatGPT.
+            - paragraph [ref=f1e177]:
+              - text: Use Chat mode when you want an answer, explanation, brainstorm, or short draft. Use Work mode when you want ChatGPT to complete a task with a clear outcome, such as a brief, deck, analysis, recurring update, workflow, or file you can review and use. Learn more about
+              - link "using Chat mode and Work mode together" [ref=f1e178] [cursor=pointer]:
+                - /url: /docs/use-chatgpt
+              - text: .
+            - paragraph [ref=f1e179]: Work mode can use your files, plugins, and approved tools to retrieve information, create deliverables, run workflows, and complete work that is ready for you to review. You can follow progress, answer questions, change direction, and approve important actions.
+            - paragraph [ref=f1e180]:
+              - text: On the
+              - link "desktop app" [ref=f1e181] [cursor=pointer]:
+                - /url: /docs/app
+              - text: ", Work mode can also use local files, apps, and the browser when those tools are available."
+            - paragraph [ref=f1e182]: If you have used Codex for non-coding work, you can stay in Codex or switch to Work mode. Work mode gives you the same core capabilities with an experience designed for everyday work.
+            - heading "What to try first Copy link to what to try first" [level=2] [ref=f1e183]:
+              - generic [ref=f1e184]: What to try first
+              - button "Copy link to what to try first" [ref=f1e185] [cursor=pointer]
+            - generic [ref=f1e188]: Your browser does not support the video tag.
+            - paragraph [ref=f1e190]: First, make sure you have Work selected in ChatGPT. Then choose your first task. Good tasks have a clear outcome, a few source materials, and an output you can review.
+            - paragraph [ref=f1e191]: "Here are three common use cases you can get started with:"
+            - heading "Create a presentation Copy link to create a presentation" [level=3] [ref=f1e192]:
+              - generic [ref=f1e193]: Create a presentation
+              - button "Copy link to create a presentation" [ref=f1e194] [cursor=pointer]
+            - paragraph [ref=f1e197]: Use Work mode to turn notes, docs, research, or meeting materials into a structured deck.
+            - button "Open A presentation created in Work mode in ChatGPT" [ref=f1e199]:
+              - img "A presentation created in Work mode in ChatGPT" [ref=f1e200]
+            - generic [ref=f1e202]:
+              - generic [ref=f1e203]:
+                - generic [ref=f1e204]: Example prompt
+                - generic [ref=f1e205]:
+                  - button "Copy prompt" [ref=f1e207] [cursor=pointer]
+                  - button "Open in ChatGPT" [ref=f1e214] [cursor=pointer]
+              - generic [ref=f1e217]: Review the attached source materials and create an eight-slide presentation for [audience]. Focus on the main themes, include supporting evidence, and flag anything that needs human review. Return a draft for my review.
+            - heading "Create a comparison spreadsheet Copy link to create a comparison spreadsheet" [level=3] [ref=f1e220]:
+              - generic [ref=f1e221]: Create a comparison spreadsheet
+              - button "Copy link to create a comparison spreadsheet" [ref=f1e222] [cursor=pointer]
+            - paragraph [ref=f1e225]: Use Work mode to turn notes, files, or research into a spreadsheet that compares options and helps you make a decision.
+            - button "Open A comparison spreadsheet created in Work mode in ChatGPT" [ref=f1e227]:
+              - img "A comparison spreadsheet created in Work mode in ChatGPT" [ref=f1e228]
+            - generic [ref=f1e230]:
+              - generic [ref=f1e231]:
+                - generic [ref=f1e232]: Example prompt
+                - generic [ref=f1e233]:
+                  - button "Copy prompt" [ref=f1e235] [cursor=pointer]
+                  - button "Open in ChatGPT" [ref=f1e242] [cursor=pointer]
+              - generic [ref=f1e245]: Create a spreadsheet comparing the options for [decision]. Use the attached notes and source materials. Include the most important criteria, score each option, flag risks or missing information, and add a summary tab with a recommendation and next steps.
+            - heading "Set up a recurring update Copy link to set up a recurring update" [level=3] [ref=f1e248]:
+              - generic [ref=f1e249]: Set up a recurring update
+              - button "Copy link to set up a recurring update" [ref=f1e250] [cursor=pointer]
+            - paragraph [ref=f1e253]: Use scheduled tasks when you want Work mode to repeat, monitor, or refresh something over time.
+            - button "Open A recurring update scheduled in Work mode in ChatGPT" [ref=f1e255]:
+              - img "A recurring update scheduled in Work mode in ChatGPT"
+            - generic [ref=f1e257]:
+              - generic [ref=f1e258]:
+                - generic [ref=f1e259]: Example prompt
+                - generic [ref=f1e260]:
+                  - button "Copy prompt" [ref=f1e262] [cursor=pointer]
+                  - button "Open in ChatGPT" [ref=f1e269] [cursor=pointer]
+              - generic [ref=f1e272]: Every Monday morning, review new updates from @Slack and @Google Drive for [project]. Refresh the meeting agenda with decisions, blockers, owners, and open questions. Send me a draft before sharing it.
+            - paragraph [ref=f1e275]:
+              - text: Learn more about
+              - link "scheduled tasks" [ref=f1e276] [cursor=pointer]:
+                - /url: /docs/automations?surface=app
+              - text: .
+            - heading "Best practices for using Work mode Copy link to best practices for using work mode" [level=2] [ref=f1e277]:
+              - generic [ref=f1e278]: Best practices for using Work mode
+              - button "Copy link to best practices for using work mode" [ref=f1e279] [cursor=pointer]
+            - paragraph [ref=f1e282]: "Use Work mode when you want ChatGPT to complete a task, create a file, or manage work over time. It is a good fit for tasks that:"
+            - list [ref=f1e283]:
+              - listitem [ref=f1e284]: Use multiple sources, plugins, tools, or steps.
+              - listitem [ref=f1e285]: Would take meaningful time to complete manually.
+              - listitem [ref=f1e286]: Produce an output you will review, edit, or reuse.
+              - listitem [ref=f1e287]: Need to be repeated, monitored, or updated over time.
+            - paragraph [ref=f1e288]: To get a better result, tell ChatGPT the outcome you need, the sources or plugins to use, any constraints to follow, what good looks like, and when to stop for review or approval.
+            - paragraph [ref=f1e289]:
+              - strong [ref=f1e290]: "Instead of:"
+              - text: Make me a presentation about our customer research.
+            - generic [ref=f1e292]:
+              - generic [ref=f1e293]:
+                - generic [ref=f1e294]: Example prompt
+                - generic [ref=f1e295]:
+                  - button "Copy prompt" [ref=f1e297] [cursor=pointer]
+                  - button "Open in ChatGPT" [ref=f1e304] [cursor=pointer]
+              - generic [ref=f1e307]: Review the attached interview notes and survey results. Create an eight-slide presentation for the product leadership meeting. Focus on the three most common customer problems, include supporting evidence, separate findings from recommendations, and flag any claims that are not well supported. Use @Google Drive for the source docs. Return a draft for my review before treating it as final.
+            - paragraph [ref=f1e310]:
+              - text: Learn more about
+              - link "prompting for Work mode" [ref=f1e311] [cursor=pointer]:
+                - /url: /docs/prompting#prompting-for-work
+              - text: .
+            - heading "Add plugins for more context and better outputs Copy link to add plugins for more context and better outputs" [level=2] [ref=f1e312]:
+              - generic [ref=f1e313]: Add plugins for more context and better outputs
+              - button "Copy link to add plugins for more context and better outputs" [ref=f1e314] [cursor=pointer]
+            - button "Open The plugins library in Work mode in ChatGPT" [ref=f1e318]:
+              - img "The plugins library in Work mode in ChatGPT"
+            - paragraph [ref=f1e319]: Plugins connect Work mode to tools your team uses, like Slack, Google Drive, SharePoint, email, calendars, CRMs, and project trackers.
+            - list [ref=f1e320]:
+              - listitem [ref=f1e321]:
+                - text: Select
+                - strong [ref=f1e322]: Plugins
+                - text: in the left sidebar to view the plugins library.
+              - listitem [ref=f1e323]: Install the plugins most relevant to your work.
+              - listitem [ref=f1e324]:
+                - text: To point ChatGPT to a specific tool, type
+                - code [ref=f1e325]: "@"
+                - text: and the plugin name in your prompt.
+            - paragraph [ref=f1e326]:
+              - text: Learn more about
+              - link "plugins" [ref=f1e327] [cursor=pointer]:
+                - /url: /docs/plugins
+              - text: .
+            - heading "Use Work mode efficiently Copy link to use work mode efficiently" [level=2] [ref=f1e328]:
+              - generic [ref=f1e329]: Use Work mode efficiently
+              - button "Copy link to use work mode efficiently" [ref=f1e330] [cursor=pointer]
+            - paragraph [ref=f1e333]: Work mode is best for substantial tasks that involve multiple steps, sources, or tools, or require a completed deliverable. Longer or more complex tasks may use more credits because ChatGPT is doing more on your behalf. Focus on the value of the completed result, rather than simply the number of prompts.
+            - paragraph [ref=f1e334]: "Keep the task focused by setting useful boundaries. For example: “use only these sources,” “compare the top five options,” or “stop before sending anything.”"
+            - paragraph [ref=f1e335]: Use Chat mode instead for quick questions, short rewrites, and decisions where you only need advice.
+            - paragraph [ref=f1e336]:
+              - text: Learn more about
+              - link "working efficiently" [ref=f1e337] [cursor=pointer]:
+                - /url: /docs/prompting#prompting-for-work
+              - text: .
+            - heading "More use cases Copy link to more use cases" [level=2] [ref=f1e338]:
+              - generic [ref=f1e339]: More use cases
+              - button "Copy link to more use cases" [ref=f1e340] [cursor=pointer]
+            - paragraph [ref=f1e343]: Explore practical Work mode workflows for common teams and tasks.
+            - generic [ref=f1e344]:
+              - link "Productivity & Collaboration Coordinate work across plugins, data, and teams." [ref=f1e345] [cursor=pointer]:
+                - /url: /use-cases/collections/productivity-and-collaboration
+                - generic [ref=f1e349]:
+                  - generic [ref=f1e350]: Productivity & Collaboration
+                  - generic [ref=f1e351]: Coordinate work across plugins, data, and teams.
+              - link "Business Operations Turn initiative context and metrics into decision-ready work." [ref=f1e352] [cursor=pointer]:
+                - /url: /use-cases/collections/business-operations
+                - generic [ref=f1e357]:
+                  - generic [ref=f1e358]: Business Operations
+                  - generic [ref=f1e359]: Turn initiative context and metrics into decision-ready work.
+              - link "Data Science Turn questions, dashboards, and raw data into review-ready analysis." [ref=f1e360] [cursor=pointer]:
+                - /url: /use-cases/collections/data-science
+                - generic [ref=f1e364]:
+                  - generic [ref=f1e365]: Data Science
+                  - generic [ref=f1e366]: Turn questions, dashboards, and raw data into review-ready analysis.
+              - link "Finance Build, review, and report from financial models and operating data." [ref=f1e367] [cursor=pointer]:
+                - /url: /use-cases/collections/finance
+                - generic [ref=f1e372]:
+                  - generic [ref=f1e373]: Finance
+                  - generic [ref=f1e374]: Build, review, and report from financial models and operating data.
+              - link "Sales Turn account context and deal signals into pipeline actions." [ref=f1e375] [cursor=pointer]:
+                - /url: /use-cases/collections/sales
+                - generic [ref=f1e379]:
+                  - generic [ref=f1e380]: Sales
+                  - generic [ref=f1e381]: Turn account context and deal signals into pipeline actions.
+              - link "Life Sciences Use GPT-Rosalind to accelerate scientific research and drug discovery." [ref=f1e382] [cursor=pointer]:
+                - /url: /use-cases/collections/life-sciences
+                - generic [ref=f1e386]:
+                  - generic [ref=f1e387]: Life Sciences
+                  - generic [ref=f1e388]: Use GPT-Rosalind to accelerate scientific research and drug discovery.
+              - link "Education Turn teaching, learning, and academic work into review-ready artifacts." [ref=f1e389] [cursor=pointer]:
+                - /url: /use-cases/collections/education
+                - generic [ref=f1e393]:
+                  - generic [ref=f1e394]: Education
+                  - generic [ref=f1e395]: Turn teaching, learning, and academic work into review-ready artifacts.
+      - navigation [ref=f1e398]:
+        - generic [ref=f1e399]:
+          - link "Previous Use ChatGPT" [ref=f1e400] [cursor=pointer]:
+            - /url: /docs/use-chatgpt
+            - generic [ref=f1e403]:
+              - generic [ref=f1e404]: Previous
+              - generic [ref=f1e405]: Use ChatGPT
+          - link "Next Import from another agent" [ref=f1e406] [cursor=pointer]:
+            - /url: /docs/import
+            - generic [ref=f1e407]:
+              - generic [ref=f1e408]: Next
+              - generic [ref=f1e409]: Import from another agent
+  - generic:
+    - button "Ask AI" [ref=f1e413] [cursor=pointer]
+    - dialog [ref=f1e415]:
+      - banner [ref=f1e416]:
+        - heading "Docs agent" [level=2] [ref=f1e417]
+        - generic [ref=f1e418]:
+          - button "Start a new docs agent chat" [ref=f1e419] [cursor=pointer]
+          - button "Close docs agent" [ref=f1e422] [cursor=pointer]
+      - paragraph [ref=f1e427]: Loading docs agent...

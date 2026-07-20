@@ -1,0 +1,12 @@
+[     376ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at pt (https://learn.chatgpt.com/_astro/client.C85L3Gc5.js:8:31372)
+    at Rm (https://learn.chatgpt.com/_astro/client.C85L3Gc5.js:8:87843)
+    at sn (https://learn.chatgpt.com/_astro/client.C85L3Gc5.js:8:117183)
+    at n1 (https://learn.chatgpt.com/_astro/client.C85L3Gc5.js:8:116442)
+    at wm (https://learn.chatgpt.com/_astro/client.C85L3Gc5.js:8:116354)
+    at Wm (https://learn.chatgpt.com/_astro/client.C85L3Gc5.js:8:116214)
+    at Pv (https://learn.chatgpt.com/_astro/client.C85L3Gc5.js:8:111778)
+    at z1 (https://learn.chatgpt.com/_astro/client.C85L3Gc5.js:8:123785)
+    at MessagePort.Ba (https://learn.chatgpt.com/_astro/client.C85L3Gc5.js:1:1782)
+[    3354ms] [WARNING] The resource https://learn.chatgpt.com/fonts/OpenAISans-Regular.woff was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://learn.chatgpt.com/docs/models?surface=app:0
+[    3355ms] [WARNING] The resource https://learn.chatgpt.com/fonts/OpenAISans-Bold.woff was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://learn.chatgpt.com/docs/models?surface=app:0
