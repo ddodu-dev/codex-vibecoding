@@ -1,0 +1,425 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #1c221d;
+  background: #f3f1e9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(28, 34, 29, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(28, 34, 29, 0.025) 1px, transparent 1px),
+    #f3f1e9;
+  background-size: 28px 28px;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app-shell {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 0 32px 32px;
+}
+
+.ambient {
+  position: absolute;
+  z-index: -1;
+  border-radius: 999px;
+  filter: blur(1px);
+  opacity: 0.65;
+}
+
+.ambient-one {
+  top: 120px;
+  left: -130px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgba(27, 81, 52, 0.18);
+}
+
+.ambient-two {
+  right: -90px;
+  bottom: 130px;
+  width: 210px;
+  height: 210px;
+  background: rgba(225, 231, 157, 0.35);
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: min(100%, 1120px);
+  height: 82px;
+  border-bottom: 1px solid rgba(28, 34, 29, 0.16);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: inherit;
+  font-family: "DM Mono", monospace;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+  width: 29px;
+  height: 29px;
+  border: 1px solid #1c221d;
+  border-radius: 50%;
+  font-size: 11px;
+}
+
+.topbar p {
+  margin: 0;
+  color: #667068;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+
+.hero {
+  margin: 54px 0 34px;
+  text-align: center;
+}
+
+.eyebrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  color: #416149;
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+}
+
+.eyebrow span {
+  width: 24px;
+  height: 1px;
+  background: currentColor;
+}
+
+h1 {
+  margin: 0;
+  color: #17251d;
+  font-size: clamp(42px, 6vw, 66px);
+  font-weight: 900;
+  letter-spacing: -0.075em;
+  line-height: 0.98;
+}
+
+h1 em {
+  position: relative;
+  color: #295c3c;
+  font-style: normal;
+}
+
+h1 em::after {
+  content: "";
+  position: absolute;
+  right: -7px;
+  bottom: -5px;
+  left: 5px;
+  height: 7px;
+  background: #d7df74;
+  opacity: 0.75;
+  transform: skewX(-18deg) rotate(-1deg);
+  z-index: -1;
+}
+
+.intro {
+  margin: 22px 0 0;
+  color: #68716a;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+.quest-stage {
+  width: min(100%, 510px);
+  min-height: 390px;
+  perspective: 1000px;
+}
+
+.quest-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 390px;
+  overflow: hidden;
+  border: 1px solid #1f3528;
+  border-radius: 3px;
+  background: #fffdf7;
+  box-shadow:
+    9px 9px 0 #dce2ab,
+    10px 10px 0 #1f3528;
+}
+
+.quest-card.is-complete {
+  background: #244d34;
+  color: #f8f6ed;
+  box-shadow:
+    9px 9px 0 #d7df74,
+    10px 10px 0 #1f3528;
+}
+
+.card-topline,
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 22px;
+  font-family: "DM Mono", monospace;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+}
+
+.card-topline {
+  border-bottom: 1px solid rgba(31, 53, 40, 0.24);
+}
+
+.is-complete .card-topline,
+.is-complete .card-footer {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.time {
+  color: #657068;
+}
+
+.is-complete .time {
+  color: #dfe6cf;
+}
+
+.card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 34px 54px;
+  text-align: center;
+}
+
+.quest-tag {
+  align-self: flex-start;
+  margin-bottom: 22px;
+  padding: 5px 9px;
+  border: 1px solid rgba(41, 92, 60, 0.35);
+  border-radius: 999px;
+  color: #416149;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.is-complete .quest-tag {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #e8edcf;
+}
+
+.prompt-label {
+  margin-bottom: 12px;
+  color: #879087;
+  font-family: "DM Mono", monospace;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+}
+
+.card-body h2 {
+  margin: 0;
+  font-size: clamp(23px, 4vw, 30px);
+  font-weight: 800;
+  letter-spacing: -0.055em;
+  line-height: 1.36;
+}
+
+.card-body h2 span {
+  display: block;
+}
+
+.card-body p {
+  max-width: 370px;
+  margin: 19px 0 0;
+  color: #707971;
+  font-size: 13px;
+  line-height: 1.75;
+  word-break: keep-all;
+}
+
+.is-complete .card-body p {
+  color: #d8e0d8;
+}
+
+.complete-mark {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  margin: -8px 0 20px;
+  border: 1px solid #d7df74;
+  border-radius: 50%;
+  color: #d7df74;
+  font-family: "DM Mono", monospace;
+  font-size: 24px;
+}
+
+.card-footer {
+  justify-content: center;
+  gap: 12px;
+  border-top: 1px solid rgba(31, 53, 40, 0.18);
+  color: #8b928c;
+}
+
+.footer-line {
+  width: 38px;
+  height: 1px;
+  background: currentColor;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 12px;
+  width: min(100%, 510px);
+  margin-top: 28px;
+}
+
+.actions button {
+  min-height: 54px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.primary-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 19px;
+  border: 1px solid #193523;
+  background: #244d34;
+  color: #fffdf7;
+  box-shadow: 3px 3px 0 #bfc96d;
+}
+
+.primary-button:disabled {
+  border-color: #738176;
+  background: #738176;
+  box-shadow: none;
+  cursor: default;
+}
+
+.draw-button {
+  border: 1px solid rgba(28, 34, 29, 0.32);
+  background: rgba(255, 253, 247, 0.7);
+  color: #35423a;
+}
+
+.shuffle {
+  display: inline-block;
+  margin-right: 7px;
+  font-size: 17px;
+  transform: rotate(25deg);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 64px;
+  color: #8b928c;
+  font-family: "DM Mono", monospace;
+  font-size: 8px;
+  letter-spacing: 0.16em;
+}
+
+.footer-dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #8b928c;
+}
+
+@media (max-width: 600px) {
+  .app-shell {
+    padding: 0 18px 26px;
+  }
+
+  .topbar {
+    height: 68px;
+  }
+
+  .topbar p {
+    display: none;
+  }
+
+  .hero {
+    margin: 38px 0 28px;
+  }
+
+  .intro {
+    font-size: 13px;
+  }
+
+  .quest-stage,
+  .quest-card {
+    min-height: 370px;
+  }
+
+  .card-body {
+    padding: 30px 25px;
+  }
+
+  .actions {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    padding-top: 48px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}
