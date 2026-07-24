@@ -1,0 +1,63 @@
+- main [ref=e3]:
+  - complementary "Calendar sidebar" [ref=e4]:
+    - generic [ref=e5]:
+      - button "Previous month" [ref=e6] [cursor=pointer]: ‹
+      - heading "July" [level=1] [ref=e7]
+      - button "Next month" [ref=e8] [cursor=pointer]: ›
+    - grid "July 2026" [ref=e9]:
+      - generic [ref=e10]: m
+      - generic [ref=e11]: t
+      - generic [ref=e12]: w
+      - generic [ref=e13]: t
+      - generic [ref=e14]: f
+      - generic [ref=e15]: s
+      - generic [ref=e16]: s
+      - button "2026-07-29" [disabled] [ref=e17]: "29"
+      - button "2026-07-30" [disabled] [ref=e18]: "30"
+      - button "2026-07-01" [ref=e19] [cursor=pointer]: "01"
+      - button "2026-07-02" [ref=e20] [cursor=pointer]: "02"
+      - button "2026-07-03" [ref=e21] [cursor=pointer]: "03"
+      - button "2026-07-04" [ref=e22] [cursor=pointer]: "04"
+      - button "2026-07-05" [ref=e23] [cursor=pointer]: "05"
+      - button "2026-07-06" [ref=e24] [cursor=pointer]: "06"
+      - button "2026-07-07" [ref=e25] [cursor=pointer]: "07"
+      - button "2026-07-08" [ref=e26] [cursor=pointer]: "08"
+      - button "2026-07-09" [ref=e27] [cursor=pointer]: "09"
+      - button "2026-07-10" [ref=e28] [cursor=pointer]: "10"
+      - button "2026-07-11" [ref=e29] [cursor=pointer]: "11"
+      - button "2026-07-12" [ref=e30] [cursor=pointer]: "12"
+      - button "2026-07-13" [ref=e31] [cursor=pointer]: "13"
+      - button "2026-07-14" [ref=e32] [cursor=pointer]: "14"
+      - button "2026-07-15" [ref=e33] [cursor=pointer]: "15"
+      - button "2026-07-16" [ref=e34] [cursor=pointer]: "16"
+      - button "2026-07-17" [ref=e35] [cursor=pointer]: "17"
+      - button "2026-07-18" [ref=e36] [cursor=pointer]: "18"
+      - button "2026-07-19" [ref=e37] [cursor=pointer]: "19"
+      - button "2026-07-20" [ref=e38] [cursor=pointer]: "20"
+      - button "2026-07-21" [pressed] [ref=e39] [cursor=pointer]: "21"
+      - button "2026-07-22" [ref=e40] [cursor=pointer]: "22"
+      - button "2026-07-23" [ref=e41] [cursor=pointer]: "23"
+      - button "2026-07-24" [ref=e42] [cursor=pointer]: "24"
+      - button "2026-07-25" [ref=e43] [cursor=pointer]: "25"
+      - button "2026-07-26" [ref=e44] [cursor=pointer]: "26"
+      - button "2026-07-27" [ref=e45] [cursor=pointer]: "27"
+      - button "2026-07-28" [ref=e46] [cursor=pointer]: "28"
+      - button "2026-07-29" [ref=e47] [cursor=pointer]: "29"
+      - button "2026-07-30" [ref=e48] [cursor=pointer]: "30"
+      - button "2026-07-31" [ref=e49] [cursor=pointer]: "31"
+      - button "2026-07-01" [disabled] [ref=e50]: "01"
+      - button "2026-07-02" [disabled] [ref=e51]: "02"
+      - button "2026-07-03" [disabled] [ref=e52]: "03"
+      - button "2026-07-04" [disabled] [ref=e53]: "04"
+      - button "2026-07-05" [disabled] [ref=e54]: "05"
+      - button "2026-07-06" [disabled] [ref=e55]: "06"
+      - button "2026-07-07" [disabled] [ref=e56]: "07"
+      - button "2026-07-08" [disabled] [ref=e57]: "08"
+      - button "2026-07-09" [disabled] [ref=e58]: "09"
+    - region [ref=e59]:
+      - generic [ref=e60]:
+        - heading "7월 21일" [level=2] [ref=e61]:
+          - generic [ref=e62]: 🗓️
+          - text: 7월 21일
+        - button "＋" [disabled] [ref=e63]
+      - status [ref=e64]: 일정을 불러오는 중…
